@@ -6,7 +6,7 @@
       >
    <n-space justify="center">
    <n-text depth="2">
-     https://www.zhangpingguo.com/
+     https://github.com/Helloqiyuan
    </n-text>
    </n-space>
       </n-layout-footer>

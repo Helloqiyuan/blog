@@ -64,14 +64,14 @@
         </n-gi>
 
         <n-gi style="margin: 15px"   span="6 1025:2  "  v-for="(item,index) in 9" :key="index">
-          <a href="https://www.zhangpingguo.com/" target="_blank">
+          <a href="https://github.com/Helloqiyuan" target="_blank">
           <n-card
               v-motion-pop-visible-once
-              title="🧣张苹果博客"
+              title="🧣qiyuan博客"
               hoverable
               :bordered="false"
           >
-           更多信息请访问：https://www.zhangpingguo.com/
+           更多信息请访问：https://github.com/Helloqiyuan
           </n-card>
           </a>
         </n-gi>

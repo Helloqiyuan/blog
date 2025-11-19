@@ -58,7 +58,7 @@
             embedded
             :bordered="false"
         >
-         本站前端代码已发布到码云：：<n-a href="https://gitee.com/shcmyg/zhang-apple-blog" target="_blank">https://gitee.com/shcmyg/zhang-apple-blog</n-a>。需要的可前往下载。<br>
+         本站前端代码改编自码云：：<n-a href="https://gitee.com/shcmyg/zhang-apple-blog" target="_blank">https://gitee.com/shcmyg/zhang-apple-blog</n-a>。需要的可前往下载。<br>
           <!-- 如果您觉得本站还不错，可以通过点击右上角的赞赏按钮来支持本站，🧣感谢您的支持！ -->
         </n-card>
       </n-card>
