@@ -13,7 +13,7 @@
   <n-card >
     <template #header>
       <n-h3 prefix="bar" class="margin-bottom0px" align-text type="info">
-        微博实时热搜
+        实时热搜
       </n-h3>
 
     </template>  <template #header-extra>
@@ -68,7 +68,7 @@ const loading=ref(true);
 const get_weibo=()=>{
   loading.value=true;
 try{
-  weiboList.value=[{title:'博客上线了',url:'https://www.zhangpingguo.com'},{title:'博客上线了',url:'https://www.zhangpingguo.com'},{title:'博客上线了',url:'https://www.zhangpingguo.com'},{title:'博客上线了',url:'https://www.zhangpingguo.com'}]
+  weiboList.value=[{title:'博客上线了',url:'https://github.com/Helloqiyuan'},{title:'博客上线了',url:'https://github.com/Helloqiyuan'},{title:'博客上线了',url:'https://github.com/Helloqiyuan'},{title:'博客上线了',url:'https://github.com/Helloqiyuan'}]
   loading.value=false;
 
 }catch (e) {
