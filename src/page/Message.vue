@@ -43,7 +43,6 @@
         </template>
          <n-h5  class="margin-bottom-top">前端：<n-gradient-text type="error">Vue3+Vite+Ts+NaiveUI， </n-gradient-text>后端：<n-gradient-text type="info">Java</n-gradient-text>，数据库：<n-gradient-text type="info">MySQL</n-gradient-text>。</n-h5>
          <n-h5  class="margin-bottom-top">本站的编写纯属个人兴趣爱好，前后端均独立完成；主要用来记录自己工作、生活、学习上的笔记。</n-h5>
-         <n-h5  class="margin-bottom-top">本站任何用户注册登录，获取权限后都可发布文章等操作。</n-h5>
          <n-h5  class="margin-bottom-top">本站前端代码，未考虑IE等低版本浏览器的兼容性。</n-h5>
          <n-h5  class="margin-bottom-top">本站发布的文章或其他信息如有侵权，请邮件联系我及时删除，谢谢。</n-h5>
       </n-card>
