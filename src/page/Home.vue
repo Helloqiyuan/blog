@@ -15,7 +15,7 @@
 
           <kinesis-element :strength="6">
 
-            <n-h1 class="text-center">Zhang Apple</n-h1>
+            <n-h1 class="text-center">Helloqiyuan</n-h1>
           </kinesis-element>
             <n-space  class="padding-bottom10">
             <n-text depth="3">
