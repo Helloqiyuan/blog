@@ -18,7 +18,7 @@
             <n-gi :span="10">
               <n-ellipsis :tooltip="false" style="width: 100%" :line-clamp="clientWidth > 800 ? 8 : 3">
                 <n-image v-if="clientWidth > 800" class="my_image" :width="clientWidth > 2000 ? 370 : 290"
-                  :height="clientWidth > 2000 ? 180 : 130" src="https://img.zhangpingguo.com/AppleBlog/logo/logo.jpg"
+                  :height="clientWidth > 2000 ? 180 : 130" src="https://qiyuan-cloud-data.oss-cn-guangzhou.aliyuncs.com/pinkavatar.jpg"
                   preview-disabled />
                 {{ getChinese(articleInfo.title) }}
               </n-ellipsis> </n-gi>
