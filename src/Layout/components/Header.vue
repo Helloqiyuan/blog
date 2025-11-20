@@ -95,12 +95,12 @@ const meunList = [{
   icon: renderIcon(BrushOutline),
 
 }
-  // ,{
-  //   label: '留言' ,
-  //   key: 'guestbook',
-  //   icon: renderIcon(ChatbubblesOutline),
+  ,{
+    label: '留言' ,
+    key: 'guestbook',
+    icon: renderIcon(ChatbubblesOutline),
 
-  // }
+  }
   ,{
     label: '友链' ,
     key: 'friendLink',
