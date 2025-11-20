@@ -1,4 +1,4 @@
-name: Deploy to Windows Nginx
+name: Deploy to Linux Nginx
 
 on:
   push:
@@ -24,13 +24,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # - name: Clear old files
-      #   run: |
-      #     if (Test-Path "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist") {
-      #       Remove-Item "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist/*" -Recurse -Force
-      #     } else {
-      #       New-Item -ItemType Directory -Path "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist"
-      #     }
       - name: Clear old files
         run: |
           DIST="/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist"
@@ -40,7 +33,10 @@ jobs:
             mkdir -p "$DIST"
           fi
 
-
-
       - name: Copy build files to Nginx
-        run: Copy-Item -Path "dist\*" -Destination "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist" -Recurse
+        run: |
+          DIST="/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist"
+          # 确保目录存在
+          mkdir -p "$DIST"
+          # 拷贝 dist 目录下所有文件到目标目录
+          cp -r dist/* "$DIST/"

@@ -42,15 +42,15 @@ const routes: Array<RouteRecordRaw> = [
     //         keepAlive: true,
     //     }
     // }, 
-    // {
-    //     path: "/friendLink",
-    //     name: "friendLink",
-    //     component: () => import('../page/FriendLink.vue'),
-    //     meta: {
-    //         title: "友情链接",
-    //         keepAlive: true,
-    //     }
-    // }, 
+    {
+        path: "/friendLink",
+        name: "friendLink",
+        component: () => import('../page/FriendLink.vue'),
+        meta: {
+            title: "友情链接",
+            keepAlive: true,
+        }
+    }, 
     {
         path: "/message",
         name: "message",

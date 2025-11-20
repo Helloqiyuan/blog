@@ -101,12 +101,12 @@ const meunList = [{
   //   icon: renderIcon(ChatbubblesOutline),
 
   // }
-  // ,{
-  //   label: '友链' ,
-  //   key: 'friendLink',
-  //   icon: renderIcon(UnlinkOutline),
+  ,{
+    label: '友链' ,
+    key: 'friendLink',
+    icon: renderIcon(UnlinkOutline),
 
-  // }
+  }
   , {
   label: '关于',
   key: 'message',

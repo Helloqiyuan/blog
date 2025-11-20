@@ -63,6 +63,7 @@ declare module '@vue/runtime-core' {
     NH2: typeof import('naive-ui')['NH2']
     NH3: typeof import('naive-ui')['NH3']
     NH5: typeof import('naive-ui')['NH5']
+    NH6: typeof import('naive-ui')['NH6']
     NIcon: typeof import('naive-ui')['NIcon']
     NImage: typeof import('naive-ui')['NImage']
     NInput: typeof import('naive-ui')['NInput']
