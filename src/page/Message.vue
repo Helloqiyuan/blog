@@ -21,7 +21,7 @@
 
           <template  #description>
             目前工作：学生🎗<br>
-            联系站长：https://github.com/Helloqiyuan<br>
+            <a href="http://112."></a> 联系站长：https://github.com/Helloqiyuan<br>
             这个人很简单，没什么好说的。
           </template>
         </n-thing>

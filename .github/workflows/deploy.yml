@@ -26,11 +26,11 @@ jobs:
 
       - name: Clear old files
         run: |
-          if (Test-Path "C:\Users\Administrator\Desktop\nginx-1.29.1\html\dist") {
-            Remove-Item "C:\Users\Administrator\Desktop\nginx-1.29.1\html\dist\*" -Recurse -Force
+          if (Test-Path "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist") {
+            Remove-Item "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist/*" -Recurse -Force
           } else {
-            New-Item -ItemType Directory -Path "C:\Users\Administrator\Desktop\nginx-1.29.1\html\dist"
+            New-Item -ItemType Directory -Path "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist"
           }
 
       - name: Copy build files to Nginx
-        run: Copy-Item -Path "dist\*" -Destination "C:\Users\Administrator\Desktop\nginx-1.29.1\html\dist" -Recurse
+        run: Copy-Item -Path "dist\*" -Destination "/opt/1panel/apps/openresty/openresty/www/sites/112.124.44.107/index/dist" -Recurse
